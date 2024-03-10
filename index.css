@@ -43,6 +43,9 @@ a {
 }
 
 .question {
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
     font-size: 80px;
     text-align: center;
 }
