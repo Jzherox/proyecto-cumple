@@ -1,0 +1,76 @@
+html {
+    background: rgb(151, 255, 255);
+}
+
+.body {
+    height: 100vh;
+    width: 100%;
+    background: url(https://img.freepik.com/premium-photo/red-black-horror-background-dark-grunge-red-texture-concrete_526818-1572.jpg);
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.base {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, h2, h3 {
+    color: white;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+}   
+
+.gift-png {
+    background: url(https://cdn.pixabay.com/photo/2021/01/20/14/01/gift-5934329_960_720.png) center no-repeat;
+    background-size: 100%;
+    height: 300px;
+    width: 400px;
+}
+
+.question {
+    font-size: 80px;
+    text-align: center;
+}
+
+.options, .options-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div h3 {
+    font-size: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+.options h3:hover {
+    color: rgb(255, 255, 136);
+}
+
+.options-2 h3:hover {
+    color: rgb(153, 0, 0);
+}
+
+.gift-glitch {
+    background: url(https://sergipimo.hotglue.me/?desck.head.162206951078) center no-repeat;
+    background-size: 100%;
+    height: 300px;
+    width: 400px;
+}
